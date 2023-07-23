@@ -5,6 +5,7 @@ extern crate log;
 
 fn main() {
     pretty_env_logger::init_timed();
+    // Log Levels: https://docs.rs/log/0.4.19/log/enum.Level.html
 
     const WIDTH: usize = 5_000;
     const EPOCHS: usize = 5_000;

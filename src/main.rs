@@ -85,7 +85,10 @@ fn main() {
             last_y = y as i128;
         }
 
-        info!("Saving Image. This might take a while!");
+        info!("Saving Image to disk. This might take a while!");
+
         imgbuf.save("image.png").unwrap();
+
+        info!("Image saved to disk!");
     }
 }
